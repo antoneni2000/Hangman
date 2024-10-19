@@ -49,25 +49,4 @@ in the console! Some online examples:
     - The game starts with a menu for picking a difficulty level. The `play()` function is not changed.
     - The word-pool and the number of lives depend on the chosen level.
 
-## General requirements
-
-None
-
-## Hints
-
-- Store the state of the game (such as the revealed and missed letters) with the help
-  of mutable structures (such as lists or sets).
-- Use a `set` data structure when you have a collection that cannot have duplicate elements.
-- Try to create a few (3-6) functions for features that are somewhat separated from the
-  main process (such as dealing with the inputs, parts of the display, or the menu).
-  Think of the input requirements and the results of these units! Add the necessary
-  inputs as parameters, and return the results that is needed by the caller side!
-- Ideal team size is 2. Maximum team size is 3.
-
-## Background materials
-
-- <i class="far fa-exclamation"></i> [Strings](project/curriculum/materials/competencies/python-basics/python-strings.md.html)
-- <i class="far fa-exclamation"></i> [User input](project/curriculum/materials/competencies/python-basics/python-io.md.html)
-- <i class="far fa-exclamation"></i> [File handling](project/curriculum/materials/competencies/python-basics/python-file-handling.md.html)
-- <i class="far fa-book-open"></i> [Sets](project/curriculum/materials/competencies/python-data-structures/python-sets.md.html)
 
